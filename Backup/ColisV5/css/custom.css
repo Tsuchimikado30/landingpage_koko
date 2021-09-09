@@ -1,0 +1,359 @@
+/* bbm
+----------------------- */
+.bbm {
+  color: #FFF;
+  background-color: #4555dd;
+  border-color: #4555dd;
+}
+.bbm:hover {
+  color: #FFF;
+  background-color: #707fff;
+  border-color: #6978ff;
+}
+.bbm span.icon{
+  background: url(../images/bbm.png) no-repeat;
+  float: left;
+  width: 30px;
+  height: 30px;
+margin-right:10px;
+margin-top: 3px;
+vertical-align: middle;
+}
+.imgsize {
+  width: 300px;
+}
+hr {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #d6d6d6;
+}
+/* WhatsApp-button
+-------------------- */
+
+.whatsapp {
+  color: #FFF;
+  background-color: #67bd57;
+  border-color: #67bd57;
+}
+.whatsapp:hover {
+  color: #FFF;
+  background-color: #7cc86e;
+  border-color: #83d075;
+}
+.whatsapp span.icon{
+  background: url(../images/whatsapp.png) no-repeat;
+  float: left;
+  width: 30px;
+  height: 30px;
+margin-right:10px;
+margin-top: 3px;
+vertical-align: middle;
+}
+
+/* LINE-button
+-------------------- */
+
+.line {
+  color: #FFF;
+  background-color: #5ca74e;
+  border-color: #67bd57;
+}
+.line:hover {
+  color: #FFF;
+  background-color: #76b46b;
+  border-color: #83d075;
+}
+.line span.icon{
+  background: url(../images/line.png) no-repeat;
+  float: left;
+  width: 30px;
+  height: 30px;
+margin-right:10px;
+margin-top: 3px;
+vertical-align: middle;
+}
+
+/* LINE-button
+-------------------- */
+
+.sms {
+  color: #FFF;
+  background-color: #ee9d00;
+  border-color: #dd9813;
+}
+.sms:hover {
+  color: #FFF;
+  background-color: #f5b12f;
+  border-color: #eca315;
+}
+.sms span.icon{
+  background: url(../images/sms.png) no-repeat;
+  float: left;
+  width: 30px;
+  height: 30px;
+margin-right:10px;
+margin-top: 3px;
+vertical-align: middle;
+}
+
+/* my custom
+---------------- */
+.tombol {
+  padding:0 20px;
+  height: 45px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .05rem;
+}
+.nav-container2 { width:940px; margin:auto; height:30px;}
+.social-media-list { width: 393px; }
+.social-media-list li { display:block; float: left; width:33.3%; text-align:center; margin: 0 auto;}
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+  border-radius: 100px;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.phones {
+  position: relative;
+}
+.phone {
+  position: relative;
+  max-width: 80%;
+  margin: 3rem auto -12rem;
+}
+.phone + .phone {
+  display: none;
+}
+
+/* footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#social {
+position: fixed;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+display: block;
+background: #ff99a8;
+color: #a70000;
+font-size: 16px;
+font-weight: 600;
+height: 80px;
+}
+.soclist2 li {
+  padding-top: 10px;
+}
+
+#social li{
+  display:inline-block;
+  list-style:none;
+}
+#social ul {
+  padding: 0px;
+  margin:-5px -1px 0 -5px;
+}
+
+a.bbm1, a.whatsapp1, a.line1, a.sms1{
+    display:inline-block;
+    width: 40px;
+    height: 30px;
+    padding: 5px 20px;
+    margin:0px -4px 0px 0px;
+}
+a.bbm1 {
+    background: #5776f9 url(../images/bbm.png) no-repeat center;
+}
+a.whatsapp1 {
+    background: #67bd57 url(../images/whatsapp.png) no-repeat center;
+}
+a.line1 {
+    background: #5ca74e url(../images/line.png) no-repeat center;
+}
+a.sms1 {
+    background: #ee9d00 url(../images/sms.png) no-repeat center;
+}
+
+.tfooter {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .05rem;
+    width: 400px;
+    margin: auto;
+}
+.tfooter img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+footer {
+  padding: 15px;
+}
+.footer {
+  background-color: #e95252;
+  color: #ffffff;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.footer a {
+  color:#ffffff;
+  text-decoration: none;
+}
+.footer:hover{
+  background-color: #e06969;
+  color: #ffffff;
+}
+
+/* Values
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.values {
+  background-image: url('../images/colis-bg.jpg');
+  background-size: cover;
+  background-position: top right;
+  color: #242424;
+  padding-bottom: 5rem;
+}
+.value-multiplier {
+  margin-bottom: .5rem;
+  color: #fc7f6e;
+}
+.value-heading {
+  margin-bottom: .3rem;
+}
+.value-description {
+  opacity: .8;
+  font-weight: 300;
+}
+
+/* Help
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.get-help {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Categories
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.categories {
+  background-image: url('../images/colis-bg.jpg');
+  background-size: cover;
+  color: #242424;
+}
+.categories .section-description {
+  margin-bottom: 4rem;
+}
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  .section {
+    padding: 12rem 0 11rem;
+  }
+  .hero {
+    padding-bottom: 12rem;
+    text-align: left;
+    height: 165px;
+  }
+  .phone {
+    position: absolute;
+    top: -7rem;
+    right: 3rem;
+    max-height: 362px;
+    z-index: 3;
+  }
+  .phone + .phone {
+    top: -6rem;
+    display: block;
+    max-width: 73.8%;
+    right: 0;
+    z-index: 2;
+    max-height: 338px;
+  }
+  .hero-heading {
+    font-size: 2.4rem;
+  }
+  hr {
+    width: 300px;
+  }
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  .hero {
+    height: 190px;
+  }
+  .hero-heading {
+    font-size: 2.6rem;
+  }
+  .section {
+    padding: 14rem 0 15rem;
+  }
+  .hero {
+    padding: 16rem 0 14rem;
+  }
+  .section-description {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .phone {
+    top: -14rem;
+    right: 5rem;
+    max-height: 510px;
+  }
+  .phone + .phone {
+    top: -12rem;
+    max-height: 472px;
+  }
+  .categories {
+    padding: 15rem 0 8rem;
+  }
+  hr {
+    width: 400px;
+  }
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  .section {
+    padding: 20rem 0 19rem;
+  }
+  .hero {
+    padding: 22rem 0;
+  }
+  .hero-heading {
+    font-size: 3.0rem;
+  }
+  .phone {
+    top: -16rem;
+    max-height: 615px;
+  }
+  .phone + .phone {
+    top: -14rem;
+    max-height: 570px;
+  }
+  hr {
+    width: 500px;
+  }
+}
+.quote {
+    background: #000000;
+    border-left: 2px solid 	#000000;
+}
+.atasan {
+    padding:10px;
+}
